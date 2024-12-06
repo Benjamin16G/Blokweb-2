@@ -1,0 +1,876 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+
+*,
+body {
+	margin: 0;
+}
+
+body {
+	background-color: #FAFAFA;
+	overflow-x: hidden;
+}
+
+main {
+	margin: 1em;
+}
+
+@media (max-width: 768px) {
+	#Index main {
+		margin: 0;
+	}
+}
+
+
+
+.play-regular {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.play-bold {
+	font-family: "Play", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@media (min-width: 768px) {
+	#Index body {
+		margin: 1em;
+	}
+}
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+ul {
+	list-style-type: none;
+}
+
+ol {
+	font-family: "Play", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+details,
+form {
+	font-family: "Play", sans-serif;
+	text-decoration: none;
+}
+
+h4,
+p {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+	line-height: 1.4em;
+}
+
+
+button {
+	font-family: "Play", sans-serif;
+	border-color: transparent;
+}
+
+@media (min-width: 150px) {
+
+	#Index video {
+		display: flex;
+		object-fit: cover;
+		transition: 0.1s;
+		width: calc(100svw)
+	}
+}
+
+
+
+@media (min-width: 769px) {
+	#Index video {
+		border-radius: 1em;
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+
+
+
+
+/* **************************** */
+/* HEADER EN NAV */
+/* **************************** */
+
+header section {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	padding: 0.5rem;
+	z-index: 1;
+
+}
+
+#Eiwitpagina header section {
+	position: relative;
+}
+
+@media (min-width: 769px) {
+	#Index header section {
+		margin: 2em;
+	}
+
+}
+
+header h1>img {
+	width: 50%;
+}
+
+header button {
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	font-weight: 700;
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	margin-right: 2em;
+	padding: 0.5em;
+	font-size: 1rem;
+
+}
+
+#closeButton {
+	position: absolute;
+	right: 20px;
+	top: -1em;
+}
+
+@media (min-width: 769px) {
+	#closeButton {
+		position: absolute;
+		right: 20px;
+		top: -1em;
+	}
+}
+
+header>nav {
+	background-color: white;
+	position: fixed;
+	width: 420px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	translate: 100%;
+	transition: .2s;
+}
+
+header>nav.toonMenu {
+	translate: 0% 0%;
+
+}
+
+nav ul:first-of-type {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0.5em 0em 1em 0em;
+}
+
+nav ul:nth-of-type(2) {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 0.5em;
+	height: 20em;
+	margin-right: 1em;
+}
+
+nav ul:nth-of-type(2) li {
+	display: grid;
+	position: relative;
+	background-color: #E0E0E0;
+	border-radius: 5px;
+	overflow: hidden;
+	grid-template-columns: 1fr;
+
+}
+
+nav ul:nth-of-type(2) li:first-child {
+	grid-column: 1 / span 2;
+}
+
+nav ul:nth-of-type(2) li h4 {
+	display: grid;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	align-self: start;
+	justify-self: start;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	position: absolute;
+	font-size: 0.8em;
+	z-index: 2;
+
+
+}
+
+nav ul:nth-of-type(2) li img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 1;
+
+}
+
+
+
+#closeButton {
+	background-color: white;
+	border-color: transparent;
+}
+
+nav a {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+	color: #6A6A6A;
+	text-decoration: none;
+	display: grid;
+}
+
+
+
+
+
+
+
+
+/* **************************** */
+/* Dit is voor 2e section - producten en top 10 */
+/* **************************** */
+
+nav ul:nth-of-type(3) {
+	line-height: 200%;
+
+}
+
+@media (min-width: 1000px) {
+	#Index main section {
+		margin-left: 8em;
+		margin-right: 8em;
+	}
+}
+
+main section:nth-of-type(1) div {
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	padding: 0.75em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+
+#Eiwitpagina main section:nth-of-type(1) div {
+	Border-bottom: 2px solid #D0D0D0;
+}
+
+
+.top10 h2 {
+	padding: 0.75em;
+}
+
+.top10 button {
+	border-radius: 3px;
+	color: white;
+	background-color: black;
+	margin: 0.5rem;
+	font-size: 0.75rem;
+	padding: 0.75em;
+}
+
+@media (min-width: 769px) {
+	.top10 {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+main section ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 8px;
+	padding: 20px;
+}
+
+@media (min-width: 1000px) {
+	main section ul {
+		display: flex;
+	}
+}
+
+
+#Index main section li {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@media (min-width: 769px) {
+	main section li {
+		flex: 25%;
+	}
+}
+
+
+
+
+
+
+/* ********************** */
+/* Like button */
+/* ************************ */
+main section ul button {
+	grid-row-start: 1;
+	position: absolute;
+	align-self: start;
+	justify-self: end;
+	margin: 0.5rem;
+	border-radius: 5px;
+	align-items: center;
+	aspect-ratio: 1/1;
+	font-size: 1em;
+}
+
+main section ul img {
+	height: 45vw;
+	object-fit: cover;
+	border-radius: 5px;
+
+}
+
+@media (min-width: 768px) {
+	main section ul img {
+		position: relative;
+		display: flex;
+
+		height: 370px;
+		object-position: center;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* **************************** */
+/* De laad meer knop */
+/* **************************** */
+
+.LoadMore {
+	width: 100%;
+	background-color: white;
+	border-radius: 5px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 1em;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+
+@media (min-width: 768px) {
+	.loadmore {
+		margin: 1em;
+	}
+}
+
+
+
+
+/* **************************** */
+/* voor alle sporters */
+/* **************************** */
+.lastsection {
+	display: flex;
+	flex-direction: column;
+	width: 100wv;
+}
+
+
+.lastsection li {
+	position: relative;
+
+}
+
+@media (min-width: 768px) {
+	.lastsection ul {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+}
+
+.lastsection img {
+	width: 100%;
+	align-items: center;
+	opacity: 50%;
+	transition: 1s;
+}
+
+.lastsection img:hover {
+	opacity: 100%;
+}
+
+.lastsection h3 {
+	position: absolute;
+	left: 3%;
+	bottom: 5%;
+	color: white;
+	font-size: 24px;
+}
+
+@media (min-width: 768px) {
+	.lastsection {
+		flex-direction: row;
+		gap: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.lastsection img {
+		height: 40vw;
+	}
+}
+
+
+
+/* **************************** */
+/* Laatste artical Onze visie */
+/* **************************** */
+#Index article {
+	display: grid;
+	color: white;
+	margin-top: 4em;
+}
+
+@media (min-width: 768px) {
+	article {
+		border-radius: 5px;
+		margin: 1em;
+	}
+
+}
+
+article img {
+	width: 100vw;
+	object-fit: cover;
+}
+
+article h2 {
+	font-size: 28px;
+	margin: 0.5em;
+	position: absolute;
+	margin-left: 0.6em;
+}
+
+article h3 {
+	font-size: 18px;
+	margin: 0.75em;
+	position: absolute;
+	margin-left: 1em;
+	margin-top: 3em;
+}
+
+article a {
+	background-color: #D0DAE6;
+	color: white;
+	padding: 0.75em;
+	border-radius: 5px;
+	margin-top: 7em;
+	position: absolute;
+	margin-left: 1em;
+}
+
+footer {
+	padding-top: 1em;
+}
+
+@media (min-width: 768px) {
+	footer section {
+		border-radius: 5px;
+	}
+}
+
+footer section:first-of-type {
+	background-color: #E8E8E8;
+	display: flex;
+	flex-direction: column;
+
+}
+
+footer section:first-of-type a {
+	color: black;
+	line-height: 1em;
+	padding: 1em;
+}
+
+footer section:nth-of-type(2) {
+	background-color: #E8E8E8;
+	display: flex;
+
+
+}
+
+footer section:nth-of-type(2) a {
+	padding: 1em;
+	width: 5%;
+}
+
+footer section:nth-of-type(2) img {
+	padding: 1em;
+	width: 100%;
+}
+
+
+
+
+
+
+
+/* **************************** */
+/* product pagina! */
+/* **************************** */
+
+#Eiwitpagina {
+	background-color: F5F5F5;
+}
+
+@media (min-width: 1250px) {
+
+	#Eiwitpagina {
+		margin-left: 8em;
+		margin-right: 8em;
+	}
+}
+
+@media (min-width: 768px) {
+	main>div {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: 3em;
+
+	}
+}
+
+#Eiwitpagina div:first-of-type>section,
+.container2,
+.container3 {
+	display: block;
+}
+
+
+
+/* Bread crumbs */
+#Eiwitpagina main>section:first-of-type {
+	display: flex;
+	padding: 1em;
+
+}
+
+#Eiwitpagina main>section:first-of-type a {
+	color: black;
+}
+
+
+
+/* Product foto's  */
+#Eiwitpagina div:first-of-type>section {
+	display: grid;
+	gap: 1rem;
+	grid-template-rows: repeat(2, auto);
+	grid-template-columns: 2fr 1fr;
+	position: sticky;
+	top: 0;
+
+}
+
+
+#Eiwitpagina div>section video,
+img {
+	width: 100%;
+	border-radius: 5px;
+
+}
+
+#Eiwitpagina div>section video:first-of-type {
+	width: 100%;
+	grid-row: 1 / span 2;
+}
+
+#Eiwitpagina div>section>section {
+	display: flex;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+/* ************************* */
+/* Product informatie */
+/* *********************** */
+
+
+#Eiwitpagina div>div:nth-of-type(2) {
+	display: flex;
+	padding: 1em;
+}
+
+#Eiwitpagina h1 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
+#Eiwitpagina h2 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#Eiwitpagina main div:nth-of-type(2) ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+#Eiwitpagina main form div {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #605f5f73;
+	margin: 0.5em;
+	border-radius: 4px;
+	padding: 0.8em;
+
+}
+
+#Eiwitpagina main form:first-of-type {
+	border: 1px solid #767676a2;
+	border-radius: 4px;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+#Eiwitpagina main div section {
+	width: 100%;
+}
+
+:disabled {
+	background-color: dimgrey;
+	color: linen;
+	opacity: 1;
+}
+
+.disabled {
+	color: dimgrey;
+}
+
+
+
+
+
+/* ****************** */
+/* EIWIT OATS EN FOTO's */
+/* ******************** */
+#Eiwitpagina main>div:nth-of-type(2) {
+	margin: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section {
+	display: flex;
+	flex-direction: column;
+
+}
+
+@media (min-width: 768px) {
+	#Eiwitpagina main>div:nth-of-type(2) section {
+		display: grid;
+		grid-column: 1fr 3fr;
+		gap: 1em;
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section h2 {
+		grid-column: 1;
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section p {
+		grid-column: 2 / span 3;
+	}
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section p {
+	margin-bottom: 2rem;
+}
+
+
+
+/* ******************************** */
+/* GRID VOOR AFBEELDINGEN ONDERAAAN */
+/* **********************************/
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) {
+	display: grid;
+	width: 100%;
+	gap: 1rem;
+	grid-template-rows: repeat(4, auto);
+	grid-template-columns: repeat(2, auto);
+}
+
+
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img {
+	border-radius: 5px;
+	width: 100%;
+	object-fit: cover;
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) video {
+	border-radius: 5px;
+	width: 100%;
+	object-fit: cover;
+	grid-column: 1;
+	grid-row: 3;
+
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:first-of-type {
+	grid-column: 1;
+	grid-row: 1/ span 2;
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(2) {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(3) {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(4) {
+	grid-column: 1;
+	grid-row: 4;
+}
+
+#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(5) {
+	grid-column: 2;
+	grid-row: 3/ span 4;
+}
+
+
+/* *************************************** */
+/* Zelfde grid alleen dan naast elkaar groter scherm */
+/* ******************************** */
+@media (min-width: 768px) {
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) {
+		display: grid;
+		width: 100%;
+		gap: 1rem;
+		grid-template-rows: repeat(2, auto);
+		grid-template-columns: repeat(4, auto);
+	}
+
+
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img {
+		border-radius: 5px;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) video {
+		border-radius: 5px;
+		width: 100%;
+		object-fit: cover;
+		grid-column: 3;
+		grid-row: 1;
+
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:first-of-type {
+		grid-column: 1;
+		grid-row: 1/ span 2;
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(2) {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(3) {
+		grid-column: 2;
+		grid-row: 2;
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(4) {
+		grid-column: 3;
+		grid-row: 2;
+	}
+
+	#Eiwitpagina main>div:nth-of-type(2) section:nth-of-type(2) img:nth-of-type(5) {
+		grid-column: 4;
+		grid-row: 1 /span 2;
+	}
+}
+
+/* *************** */
+/* DIT IS DE FAQ */
+/* *************** */
+
+#Eiwitpagina details {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+.active,
+#Eiwitpagina details:hover {
+	background-color: #ccc;
+}
+
+#Eiwitpagina summary {
+	padding: 1em;
+}
+
+
+
+
+/* ************ */
+/* FOCUS STATES */
+/* ************ */
+
+form:hover {
+	border: 3px solid brown;
+}
