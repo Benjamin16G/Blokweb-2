@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Surface plane 
+  resposive
  
 </details>
 
@@ -55,6 +55,12 @@ Productlisting  <img src="readme-images/upfonthoning" width="375px" alt="Product
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  - Amper tot geen hover/focus states
+  - sommige buttons zijn niet goed leesbaar - bijvoorbeeld met tab heb je geen idee waar je bent zonder screen reader.
+  - Geen opties op de site voor Toegankelijkheid, denk aan grotere buttons, geen autoplay op videos
+  - hoog contrast wordt wel ondersteund, dit ziet er nog best cool uit. 
+  - 
+
 </details>
 
 
@@ -86,7 +92,8 @@ Productlisting  <img src="readme-images/upfonthoning" width="375px" alt="Product
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-Ik ben nieuw in de HTML en CSS wereld. Dus ik was al trots op het feit dat ik mijn afbeeldingen allemaal op orde heb. Ook de structuur van mijn headers is goed. Hier zat ik eerst mee te klooien omdat ik niet zeker wist welke grootte ik nodig had.
+Ik ben nieuw in de HTML en CSS wereld. Dus ik was al trots op het feit dat ik mijn afbeeldingen allemaal op orde heb. 
+Ook de structuur van mijn headers is goed. Hier zat ik eerst mee te klooien omdat ik niet zeker wist welke grootte ik nodig had.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -95,15 +102,16 @@ Ik ben nieuw in de HTML en CSS wereld. Dus ik was al trots op het feit dat ik mi
 
 Mijn JS onclick werkte niet in de oefening
 De structuur van mijn HTML is nog niet overzichtelijk
-Vragen of ik inderdaad wel deze website wil
+Vragen of ik inderdaad wel deze website wil (uiteindelijk geswitched naar upfront.nl)
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Ik ben van website gewisseld. Dit is niet opgenomen in dit document omdat ik alle screenshots en linkjes in de readme. al heb aangepast. Hier heb ik meer opties rondom css. Wat ik graag meer wil oppikken. 
+  - Ik ben van website gewisseld. Dit is niet opgenomen in dit document omdat ik alle screenshots en linkjes in de readme. al heb aangepast. 
+  Hier heb ik meer opties rondom css. Wat ik graag meer wil oppikken. Ook ga ik dus voor responsive omdat deze site dat heel mooi doet. 
   - De structuur van mijn HTML was niet overzichtelijk. Ik had alles op dezelfde lijn. Ik moet meer met sections and lijstjes gaan werken.
-  - Die Javascript moet nog een ander variabel hebben. Hier kon ik zelf niet uitkomen.
-  - ...
+  - Die Javascript moet nog een ander variabel hebben. Hier kon ik zelf niet uitkomen. Denk aan hoofdletters, en lees het hard op terug.
+  - 
 
 </details>
 
@@ -119,24 +127,21 @@ Vragen of ik inderdaad wel deze website wil
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+- Ik snap niet hoe media queries werken, aangezien mijn website responsive is moet ik dit wel gaan begrijpen. 
+Ben deze week vooral bezig geweest met grid en flex. Super intressant en ik kan dit gelijk toepassen in mijn bestand. 
+Ik merk al wel dat mijn document aardig onoverzichtelijk is. Hier kan ik nog wel wat tips voor gebruiken. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+- Media queries -> ik moet 2 blocks die bij groot scherm naast elkaar staan bij klein scherm naast elkaar krijgen. Mag ik hier een div gebruiken?
+- quality of life, mijn logo kreeg ik niet op de juiste plek.
+- Algemene voortgang checken, hoe ver ben ik?
+- 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+ Meer uitleg over resposive op de homepagina gekregen. Geleerd hoe je bepaalde blocks naast elkaar kan zetten door een wrapper div te gebruiken. Het begint echt ergens op te lijken!
 
 </details>
 
@@ -152,8 +157,12 @@ Vragen of ik inderdaad wel deze website wil
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
--Ik ben erachter gekomen dat mijn nav ook wordt meegenomen in de links en headers. Terwijl deze eigenlijk hidden zou moeten zijn. Na navragen is dit te fixen met een "aria label". Hopelijk lukt dit nog op tijd. Aangezien ik ook een java script moet toevoegen om deze role er op en af te halen.
--
+-Ik ben erachter gekomen dat mijn nav ook wordt meegenomen in de links en headers. Terwijl deze eigenlijk hidden zou moeten zijn. 
+Na navragen is dit te fixen met een "aria label". Hopelijk lukt dit nog op tijd. Aangezien ik ook een java script moet toevoegen om deze role er op en af te halen.
+-Ik moet nog focus en hover states toevoegen, dit mist ook bij de website van upfront zelf. 
+- Ik moet mijn alt teksten nog verder uitbreiden. 
+- in nav kan je moeilijk het menu weer sluiten omdat de sluit knop boven aan het menu staat. Dit heb ik gefixt met behulp van een student begeleider!
+- Ik kan niet navigeren naar de form met een reader. Ik kan ook niet weten wat voor label er aan hangt. 
 </details>
 
 
@@ -166,8 +175,9 @@ Vragen of ik inderdaad wel deze website wil
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb deze week echt zitten stressen omdat ik zelf niet uit deze grid kwam. Hier ben ik samen met Ali uitgekomen. Soms moet ik wat sneller om hulp vragen... Verder ga ik nog bezig met hover states
 
+<img src="readme-images/Screenshot 1" width="375px" alt="breakdown van nog een dynamisch deel">
 
   ### Agenda voor meeting
 - Ik wil weten hoe ik bepaalde foto's sticky kan vormgeven zodat deze mee bewegen bij het scrollen
@@ -179,10 +189,10 @@ Vragen of ik inderdaad wel deze website wil
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Geleerd hoe ik met summarys en details kan werken voor fAQ, dit was heel erg makkelijk
+Nieuwe respositories gemaakt en gefixt!
+Sticky product foto' s ---> blijkbaar werkt overflow hidden niet met position sticky
+Ook de "sluit menu" knop onderaan mijn html gezet zodat hij makkelijker te sluiten is bij de reader
 
 </details>
 
@@ -196,19 +206,25 @@ Vragen of ik inderdaad wel deze website wil
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screen size-product page.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Phone-size-productpage.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/mainpagebyme.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/smallscreenmainbyme.png" width="375px" alt="uitomst opdracht 1">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+hambuger menu - met een grid hierbinnen, werkende linkjes en hover states. Dit kon ik allemaal niet voordat ik aan dit vak begon :)
+  <img src="readme-images/hamburgerbyme.png" width="375px" alt="hamburgermenu">
+responsive website laat ik zien tijdens de mondeling, heel trots op de grid die meebewegen
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+Op een of andere manier kreeg ik het niet voor elkaar te tab state aan te passen in de list items. Deze is nu saai zwart.
+  <img src="readme-images/laadmeer.png" width="375px" alt="laadmeer">
 </details>
 
 
