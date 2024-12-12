@@ -163,6 +163,14 @@ Na navragen is dit te fixen met een "aria label". Hopelijk lukt dit nog op tijd.
 - Ik moet mijn alt teksten nog verder uitbreiden. 
 - in nav kan je moeilijk het menu weer sluiten omdat de sluit knop boven aan het menu staat. Dit heb ik gefixt met behulp van een student begeleider!
 - Ik kan niet navigeren naar de form met een reader. Ik kan ook niet weten wat voor label er aan hangt. 
+
+
+<img src="readme-images/WhatsApp Image 2024-12-12 at 09.13.53.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="readme-images/WhatsApp Image 2024-12-12 at 09.13.53 (1).jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="readme-images/WhatsApp Image 2024-12-12 at 09.13.53 (2).jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="readme-images/WhatsApp Image 2024-12-12 at 09.13.53 (3).jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="readme-images/WhatsApp Image 2024-12-12 at 09.13.54.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 </details>
 
 
@@ -240,8 +248,9 @@ Op een of andere manier kreeg ik het niet voor elkaar te tab state aan te passen
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+Ik heb eigenlijk amper bronnen gebruikt en elk lijntje code zelf geschreven. Wel heb ik bij het maken van de Grid op pagina 2 hulp gekregen van Ali. Ook heb ik verder wel tips ontvangen. 
+  1. Hamburger menu afgekeken van opdrachten (codepen) 
+  2. Inspiratie voor Javascript van opdrachten
+  3. Afbeeldigen, video's en alle andere content van upfront.nl
 
 </details>

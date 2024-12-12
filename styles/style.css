@@ -113,16 +113,17 @@ button {
 /* **************************** */
 /* HEADER EN NAV */
 /* **************************** */
-#Index header section {
-	width: 95%
+
+#index header section {
+	width: calc(95% - 2em);
 }
 
 header section {
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
-	width: 98%;
 	padding: 0.5rem;
+	width: calc(100% - 2em);
 	z-index: 1;
 
 }
@@ -141,7 +142,7 @@ header section {
 
 @media (min-width: 769px) {
 	#Index header section {
-		margin: 2em;
+		margin: 1em;
 	}
 
 }
@@ -178,7 +179,7 @@ header button:hover {
 	#closeButton {
 		position: absolute;
 		right: 20px;
-		top: -1em;
+		top: -0.5em;
 	}
 }
 
@@ -259,7 +260,7 @@ nav ul:first-of-type {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0.5em 0em 1em 0em;
+	margin: 1em 0em 2em 0em;
 
 }
 
@@ -308,6 +309,8 @@ nav ul:nth-of-type(2) li img {
 	z-index: 1;
 
 }
+
+
 
 
 
@@ -373,6 +376,16 @@ main section:nth-of-type(1) div {
 	padding: 0.75em;
 }
 
+.top10 button:hover {
+	background-color: #FF5A00;
+}
+
+.top10 button:focus {
+	border: 2px solid #FF5A00;
+	background-color: white;
+	color: black;
+}
+
 @media (min-width: 769px) {
 	.top10 {
 		display: flex;
@@ -399,6 +412,11 @@ main section ul {
 	grid-template-columns: 1fr;
 }
 
+#Index img:hover {
+	border: 2px dashed #FF5A00;
+}
+
+
 @media (min-width: 769px) {
 	main section li {
 		flex: 25%;
@@ -423,6 +441,14 @@ main section ul button {
 	align-items: center;
 	aspect-ratio: 1/1;
 	font-size: 1em;
+}
+
+main section ul button:focus {
+	background-color: #FF5A00;
+}
+
+main section ul button:hover {
+	background-color: #FF5A00;
 }
 
 main section ul img {
@@ -468,6 +494,9 @@ main section ul img {
 	margin-bottom: 3em;
 }
 
+.loadmore:focus {
+	border: 2px solid #FF5A00
+}
 
 @media (min-width: 768px) {
 	.loadmore {
@@ -954,11 +983,15 @@ img {
 /* FOCUS STATES */
 /* ************ */
 
-input,a
-label:hover {
+input,
+a label:hover {
 	border: 1px solid #FF5A00;
 }
 
 a:focus {
+	border: 1px solid #FF5A00;
+}
+
+li:focus {
 	border: 1px solid #FF5A00;
 }
