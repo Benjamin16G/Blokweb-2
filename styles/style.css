@@ -114,25 +114,26 @@ button {
 /* HEADER EN NAV */
 /* **************************** */
 
-#index header section {
-	width: calc(95% - 2em);
-}
-
 header section {
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
 	padding: 0.5rem;
-	width: calc(100% - 2em);
 	z-index: 1;
+	width: 94vw;
 
 }
 
+@media (min-width: 1150px) {
+	#Eiwitpagina header section {
+		width: 80vw;
+	}
+}
 
 
-@media (max-width: 769px) {
-	#Index header section {
-		width: 95%
+@media (max-width: 1150px) {
+	header section {
+		width: 90vw
 	}
 }
 
